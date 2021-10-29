@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/contact.css">
+    </head>
+    <body>
+        <header id="header-bc">
+            <div class="container"><h1>My Website</h1></div>
+        </header>
+      
+        <nav id="navbar">
+            <div class="container">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+        </nav>
+
+        <main class="container">
+            <form>
+                <fieldset>
+                    <legend>How to Contact Me</legend>
+                    <p>
+                        If you have any question, you can sent emailor text to me
+                    </p>
+    
+                    <p>
+                        My outlook is <strong>Yixiang.Ren@cix.csi.cuny.edu</strong>.
+                    </p>
+    
+                    <p>
+                        My person gmail address is <strong>yixiangren0@gmail.com</strong>.
+                    </p>
+    
+                    <p class="mb-0">
+                        My phone number is <strong>917-605-3288</strong>.
+                    </p>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Please Leave Your Personal Information</legend>
+                    <p>
+                        <label for="first-name-id">First Name*:</label>
+                        <input class="textbox" required="required" type="text" name="first-name" id="first-name-id" placeholder="Your First Name">
+                    </p>
+        
+                    <p>
+                        <label for="last-name-id">Last Name*:</label>
+                        <input class="textbox" required="required" type="text" name="last-name-id" id="last-name-id" placeholder="Your Last Name">
+                    </p>
+        
+                    <p>
+                        <label for="email-address">Your Email Address*:</label>
+                        <input class="textbox" required="required" type="email" name="email-address" id="email-address" placeholder="Your Email Address">
+                    </p>
+    
+                    <p>Age
+                        <input type="radio" name="age" value="zero-18"><label id="zero-18">0-18 </label>
+                        <input type="radio" name="age" value="nineteen-30"><label id="nineteen-30">19-30 </label>
+                        <input type="radio" name="age" value="thirtyone-50"><label id="thirtyone-50">31-50 </label>
+                        <input type="radio" name="age" value="fiftyone-100"><label id="fiftyone-100">51-100 </label>
+                    </p>
+    
+                    <p>
+                        <label for="message">Your Command:</label>
+                        <textarea class="textbox" placeholder="Please Leave Your Command" required name="message" id="message"></textarea>
+                    </p>
+    
+                    <p class="mb-0">
+                        <input class="submitbox" type="Submit">
+                    </p>
+                </fieldset>
+            </form>
+
+            <footer id="main-footer">
+                <p>Copyright &copy; 2021 My Website</p>
+              </footer>
+        </main>
+    </body>
+</html>
